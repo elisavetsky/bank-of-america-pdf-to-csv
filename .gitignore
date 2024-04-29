@@ -1,0 +1,53 @@
+# build output
+dist/
+
+# generated types
+.astro/
+
+# Optional npm cache directory
+.npm
+
+# dependencies
+node_modules/
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# VSCode
+*.code-workspace
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# nova
+.nova
+./nova
+.nova/
+
+# Local Netlify folder
+.netlify
